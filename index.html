@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sabor & Origen - Gastronomía de autor, ingredientes seleccionados y ambiente único.">
+  <title>Sabor & Origen | Restaurante & Experiencia Culinaria</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Hoja de Estilos (Asegúrate de que se llame styles.css en tu carpeta) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       SECCIÓN 1: HEADER (SOLO LOGO Y BOTÓN MENÚ)
+  =========================================== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        SABOR <span>&</span> ORIGEN
+      </a>
+
+      <div class="nav-actions">
+        <a href="menu.html" class="btn btn-primary">
+          <i class="fa-solid fa-utensils"></i> VER MENÚ
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       SECCIÓN 2: HERO & BANNER (CARRUSEL 4 SEGUNDOS)
+  =========================================== -->
+  <section class="hero" id="inicio">
+    <div class="hero-slider">
+      <!-- Asegúrate de que las fotos en tu carpeta img/ tengan estas extensiones exactas -->
+      <div class="slide active" style="background-image: url('img/hero1.png');"></div>
+      <div class="slide" style="background-image: url('img/hero2.png');"></div>
+      <div class="slide" style="background-image: url('img/hero3.png');"></div>
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="badge">Gastronomía de Autor</span>
+        <h1 class="hero-title">Sabores inolvidables, ingredientes de origen</h1>
+        <p class="hero-description">
+          Descubre una propuesta culinaria que fusiona la tradición gastronómica con la cocina contemporánea.
+        </p>
+        <div class="hero-buttons">
+          <a href="menu.html" class="btn btn-primary">
+            <i class="fa-solid fa-book-open"></i> Explorar la Carta
+          </a>
+          <a href="https://wa.me/1234567890?text=Hola,%20quisiera%20reservar%20una%20mesa" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fa-brands fa-whatsapp"></i> Reservar por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SECCIÓN 3: SOBRE NOSOTROS, HISTORIA & REDES
+  =========================================== -->
+  <section class="about">
+    <div class="container about-container">
+      <div class="about-info">
+        <span class="badge">Nuestra Filosofía</span>
+        <h2 class="section-title">Pasión por el producto local y la buena mesa</h2>
+        <p class="about-text">
+          En <strong>Sabor & Origen</strong> transformamos insumos frescos de temporada en platos memorables. Nacimos con la visión de rendir homenaje a las recetas artesanales, elevándolas mediante técnicas de alta cocina en un espacio diseñado para deleitar tus sentidos.
+        </p>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <i class="fa-solid fa-fire-burner feature-icon"></i>
+            <div>
+              <h3>Parrilla a la Leña</h3>
+              <p>Cortes madurados con sabor ahumado artesanal.</p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <i class="fa-solid fa-leaf feature-icon"></i>
+            <div>
+              <h3>Insumos Orgánicos</h3>
+              <p>Cosecha diaria de pequeños productores locales.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="socials-wrapper">
+          <span class="socials-label">Síguenos en nuestras redes:</span>
+          <div class="social-icons">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-btn">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-btn">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-btn">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SECCIÓN 4: UBICACIÓN, HORARIOS & GOOGLE MAPS
+  =========================================== -->
+  <section class="location">
+    <div class="container location-container">
+      <div class="location-info">
+        <span class="badge">Visítanos</span>
+        <h2 class="section-title">Ubicación & Horarios</h2>
+        
+        <div class="info-block">
+          <i class="fa-solid fa-location-dot info-icon"></i>
+          <div>
+            <h3>Dirección Física</h3>
+            <p>Calle 10 # 43 - 22, Zona Gastronómica, Centro Histórico</p>
+          </div>
+        </div>
+
+        <div class="info-block">
+          <i class="fa-clock fa-regular info-icon"></i>
+          <div>
+            <h3>Horarios de Atención</h3>
+            <ul class="hours-list">
+              <li><span>Lunes a Jueves:</span> 12:00 PM – 10:00 PM</li>
+              <li><span>Viernes y Sábados:</span> 12:00 PM – 11:30 PM</li>
+              <li><span>Domingos y Festivos:</span> 12:00 PM – 8:00 PM</li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          <i class="fa-solid fa-map-location-dot"></i> Abrir en Google Maps
+        </a>
+      </div>
+
+      <div class="location-map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.78627419515!2d-74.05834882418386!3d4.667633295307049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5e1e2338f7%3A0x8dd3dfd8d3f114c0!2sZona%20G%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1700000000000!5m2!1ses!2sco" 
+          width="100%" 
+          height="100%" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SECCIÓN 5: FOOTER
+  =========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <p> 2026 SABOR & ORIGEN. Todos los derechos reservados.</p>
+      <p class="footer-credit">Diseñado para Portafolio Comercial Web</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

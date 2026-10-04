@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Menú Gastronómico | Sabor & Origen">
+    <title>Menú Gastronómico | Sabor & Origen</title>
+
+    <!-- Google Fonts: Cinzel y Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Hoja de estilos del menú -->
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         HEADER / NAVEGACIÓN
+    =========================================== -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                SABOR <span>&</span> ORIGEN
+            </a>
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn btn-outline">
+                    <i class="fa-solid fa-house"></i> INICIO
+                </a>
+                <a href="https://wa.me/1234567890?text=Hola,%20quisiera%20hacer%20un%20pedido%20del%20menú" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    <i class="fa-brands fa-whatsapp"></i> Pedir por WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         HERO BANNER DE LA PÁGINA MENÚ
+    =========================================== -->
+    <section class="menu-hero">
+        <div class="container">
+            <span class="badge">Propuesta Culinaria</span>
+            <h1 class="page-title">Nuestra Carta</h1>
+            <p class="page-subtitle">Platos y bebidas elaborados con insumos frescos de origen local</p>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         CONTENIDO PRINCIPAL DEL MENÚ
+    =========================================== -->
+    <main class="menu-container container">
+
+        <!-- CATEGORÍA 1: BEBIDAS FRÍAS -->
+        <section class="menu-section" id="categoria-frias">
+            <div class="category-header">
+                <h2 class="category-title">Bebidas Frías</h2>
+                <p class="category-desc">Refrescantes preparaciones artesanales para cualquier momento del día.</p>
+            </div>
+
+            <div class="menu-grid" data-category="frias">
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Iced Cold Brew</h3>
+                        <span class="item-price">$14.000</span>
+                    </div>
+                    <p class="item-desc">Extracción en frío durante 18 horas con notas cítricas y chocolatadas.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Limonada de Coco & Menta</h3>
+                        <span class="item-price">$12.500</span>
+                    </div>
+                    <p class="item-desc">Zumo natural de limón macerado con crema de coco y menta fresca.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Té Helado Matcha Tonic</h3>
+                        <span class="item-price">$15.000</span>
+                    </div>
+                    <p class="item-desc">Matcha ceremonial grado A batido sobre agua tónica de romero.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Frappé Caramel Fudge</h3>
+                        <span class="item-price">$16.500</span>
+                    </div>
+                    <p class="item-desc">Espresso doble licuado con hielo, leche de almendras y salsa de caramelo salado.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Smoothie Frutos del Bosque</h3>
+                        <span class="item-price">$13.000</span>
+                    </div>
+                    <p class="item-desc">Mora, arándanos y fresas naturales batidas con yogurt griego.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORÍA 2: BEBIDAS CALIENTES -->
+        <section class="menu-section" id="categoria-calientes">
+            <div class="category-header">
+                <h2 class="category-title">Bebidas Calientes</h2>
+                <p class="category-desc">Infusiones y cafés de especialidad tostados artesanalmente.</p>
+            </div>
+
+            <div class="menu-grid" data-category="calientes">
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Espresso Doble Origen</h3>
+                        <span class="item-price">$8.500</span>
+                    </div>
+                    <p class="item-desc">Extracción concentrada de café 100% arábigo de origen único.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Cappuccino Velvet</h3>
+                        <span class="item-price">$11.000</span>
+                    </div>
+                    <p class="item-desc">Espresso balanceado con leche cremada textura microespuma.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Chai Latte Especiado</h3>
+                        <span class="item-price">$13.500</span>
+                    </div>
+                    <p class="item-desc">Mezcla tradicional de té negro, canela, cardamomo y leche tibia.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Flat White Especial</h3>
+                        <span class="item-price">$10.500</span>
+                    </div>
+                    <p class="item-desc">Doble Ristretto servido con una fina capa de leche cremosa.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Chocolate Cacao 70%</h3>
+                        <span class="item-price">$12.000</span>
+                    </div>
+                    <p class="item-desc">Cacao artesanal derretido en leche entera con un toque de clavo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- BANNER / ÚNICA FOTO DESTACADA (ENTRE LA CATEGORÍA 2 Y 3) -->
+        <div class="menu-featured-banner">
+            <div class="banner-overlay"></div>
+            <img src="img/hero2.png" alt="Especialidad de la Casa" class="banner-img">
+            <div class="banner-caption">
+                <span class="badge">Especialidad de la casa</span>
+                <h2>Ingredientes Orgánicos & Pasión Gastronómica</h2>
+            </div>
+        </div>
+
+        <!-- CATEGORÍA 3: REPOSTERÍA -->
+        <section class="menu-section" id="categoria-reposteria">
+            <div class="category-header">
+                <h2 class="category-title">Repostería</h2>
+                <p class="category-desc">Horneados diariamente para acompañar tus bebidas favoritas.</p>
+            </div>
+
+            <div class="menu-grid" data-category="reposteria">
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Croissant de Mantequilla</h3>
+                        <span class="item-price">$9.000</span>
+                    </div>
+                    <p class="item-desc">Hojaldre francés tradicional horneado con mantequilla pura.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Cheesecake de Frutos Rojos</h3>
+                        <span class="item-price">$16.000</span>
+                    </div>
+                    <p class="item-desc">Base crujiente de galleta con crema suave y mermelada artesanal.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Tarta de Manzana & Canela</h3>
+                        <span class="item-price">$14.500</span>
+                    </div>
+                    <p class="item-desc">Manzanas caramelizadas al horno sobre masa quebrada de almendras.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Muffin de Pistacho & Limón</h3>
+                        <span class="item-price">$11.000</span>
+                    </div>
+                    <p class="item-desc">Bizcocho esponjoso relleno de crema de pistacho y ralladura fresca.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-title">Brownie Cacao Intenso</h3>
+                        <span class="item-price">$10.000</span>
+                    </div>
+                    <p class="item-desc">Bizcocho húmedo de chocolate negro servido con nueces tostadas.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p> 2026 SABOR & ORIGEN. Todos los derechos reservados.</p>
+            <p class="footer-credit">Diseñado para Portafolio Comercial Web</p>
+        </div>
+    </footer>
+<!-- Script de sincronización con Google Sheets -->
+           <script src="menu.js"></script>
+</body>
+</html>
